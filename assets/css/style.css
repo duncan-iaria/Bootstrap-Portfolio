@@ -1,0 +1,28 @@
+/*GLOBAL*/
+html
+{
+	position: relative;
+	min-height: 100%;
+}
+
+body
+{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 14px;
+
+	margin: 0 0 75px; /*bottom value is current footer height*/
+
+	background-image: url( "../images/ignasi-pattern.png" );
+	background-color: grey;
+}
+
+.navbar-inverse
+{
+	background-color: teal;
+}
+
+/*DEBUG*/
+.debug
+{
+	border: 1px solid red;
+}
