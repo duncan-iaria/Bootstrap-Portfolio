@@ -42,6 +42,11 @@ body
 	color: #AAA;
 }
 
+.nav > li > a:hover
+{
+	text-decoration: underline;
+}
+
 /*CONTENT*/
 main, aside
 {
@@ -52,6 +57,14 @@ main, aside
 {
 	padding: 20px;
 	border: 1px #dddddd solid;
+}
+
+.portrait
+{
+	float: left;
+	margin-right: 16px;
+	margin-bottom: 16px;
+	width: 300px;
 }
 
 /*FOOTER*/
