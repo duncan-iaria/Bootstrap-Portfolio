@@ -9,16 +9,71 @@ body
 {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 14px;
+	line-height: 1.5em;
 
 	margin: 0 0 75px; /*bottom value is current footer height*/
 
 	background-image: url( "../images/ignasi-pattern.png" );
+
+	/*fallback color*/
 	background-color: grey;
 }
 
-.navbar-inverse
+/*FOR CONSISTENT WIDTH*/
+.container
 {
-	background-color: teal;
+	max-width: 960px;
+}
+
+/*HEADER*/
+.navbar
+{
+	background-color: #FFF;
+}
+
+.navbar-brand
+{
+	color: #FFF;
+	background-color: #4aaaa5;
+}
+
+.nav > li > a
+{
+	color: #AAA;
+}
+
+/*CONTENT*/
+main, aside
+{
+	background-color: #FFF;
+}
+
+.content
+{
+	padding: 20px;
+	border: 1px #dddddd solid;
+}
+
+/*FOOTER*/
+footer
+{
+	margin-top: 200px;
+	position: absolute;
+
+	bottom: 0px;
+	left: 0px;
+
+	height: 75px;
+	width: 100%;
+
+	background-color: #666666;
+	border-top: 6px #4aaaa5 solid;
+}
+
+.footer-text
+{
+	padding-top: 30px;
+	color: #cccccc;
 }
 
 /*DEBUG*/
