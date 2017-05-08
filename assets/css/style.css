@@ -19,7 +19,33 @@ body
 	background-color: grey;
 }
 
+h1, h2, h3, h4
+{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-weight: bold;
+	margin-top: 10px;
+}
 
+h1
+{
+	font-size: 1.75em;
+}
+
+h2
+{
+	font-size: 1.75em;
+}
+
+h3
+{
+	font-size: 1.5em;
+}
+
+h4
+{
+	font-size: 1.333em;
+}
 
 /*FOR CONSISTENT WIDTH*/
 .container
@@ -85,9 +111,10 @@ body
 	padding-right: 0px;
 }
 
-.nav > li > a:last-child:after
+/*hamburger menu*/
+.icon-bar
 {
-	content: " ";
+	background-color: #4aaaa5;
 }
 
 
@@ -133,7 +160,7 @@ footer
 
 .footer-text
 {
-	padding-top: 30px;
+	padding-top: 20px;
 	color: #cccccc;
 }
 
