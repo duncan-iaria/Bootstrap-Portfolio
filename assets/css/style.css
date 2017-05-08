@@ -167,7 +167,34 @@ main, aside
 {
 	background-color: #65DEDB;
 }
-/*.btn-primary:*/
+
+/*PORTFOLIO*/
+.portfolio-item
+{
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+.portfolio-item-content
+{
+	position: relative;
+}
+
+.portfolio-label
+{
+	width: calc( 100% - 4px );
+	height: 60px;
+
+	position: absolute;
+	bottom: 20px;
+	background-color: #4aaaa5;
+	padding-top: 6px;
+}
+
+.portfolio-label > h2
+{
+	color: #FFF;
+}
 
 /*SIDEBAR*/
 
