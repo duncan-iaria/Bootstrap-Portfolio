@@ -93,6 +93,12 @@ label
 	color: #DDD;
 }
 
+/*hamburger menu*/
+.icon-bar
+{
+	background-color: #fff;
+}
+
 /*to remove the "|" in xs mode*/
 @media (max-width: 767px) 
 {
@@ -101,6 +107,11 @@ label
 		padding-left: 0px;
 		content: "";
 		color: #DDD;
+	}
+
+	.navbar-header
+	{
+		background-color: #4aaaa5;
 	}
 }
 .nav > li > a:hover
@@ -116,16 +127,11 @@ label
 	padding-right: 0px;
 }
 
-/*hamburger menu*/
-.icon-bar
-{
-	background-color: #4aaaa5;
-}
-
 /*CONTENT*/
 main, aside
 {
 	background-color: #FFF;
+	margin-bottom: 20px;
 }
 
 .content
@@ -140,6 +146,24 @@ main, aside
 	margin-right: 16px;
 	margin-bottom: 12px;
 	width: 300px;
+}
+
+@media ( max-width: 680px )
+{
+	.portrait
+	{
+		float: none;
+		width: 100%;
+	}
+}
+
+/*bootstrap breakpoint*/
+@media ( max-width: 991px )
+{
+	aside
+	{
+		margin-top: 20px;
+	}
 }
 
 /*CONTACT*/
@@ -178,6 +202,7 @@ main, aside
 .portfolio-item-content
 {
 	position: relative;
+	cursor: pointer;
 }
 
 .portfolio-label
@@ -194,6 +219,25 @@ main, aside
 .portfolio-label > h2
 {
 	color: #FFF;
+}
+
+@media ( max-width: 991px )
+{
+	.portfolio-item-content
+	{
+		height: 300px;
+		overflow-y: hidden;
+	}
+
+	.img-portfolio
+	{
+		width: 100%;
+	}
+
+	.portfolio-label
+	{
+		width: 100%;
+	}
 }
 
 /*SIDEBAR*/
@@ -225,3 +269,4 @@ footer
 {
 	border: 1px solid red;
 }
+
